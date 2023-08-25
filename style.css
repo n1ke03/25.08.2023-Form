@@ -8,3 +8,9 @@ body{
 #film{
     width: 180px;
 }
+h2{
+    text-align: center;
+}
+.margin{
+    padding: 0 10px;
+}
