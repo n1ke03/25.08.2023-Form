@@ -1,0 +1,16 @@
+body{
+    width: auto;
+    margin: 0 10px;
+}
+.form-row{
+    margin: 10px 5px;
+}
+#film{
+    width: 180px;
+}
+h2{
+    text-align: center;
+}
+.margin{
+    padding: 0 10px;
+}

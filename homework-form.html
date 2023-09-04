@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ суши и роллов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Заказ суши и роллов</h2>
+    <div class="form-row">
+        <label for="name"></label>
+        <input type="text" id="name" name="login" placeholder="Ваше имя" />
+    </div>
+    <div class="form-row">
+        <label for="adres"></label>
+        <input type="text" id="adres" name="adres" placeholder="Укажите Ваш адрес">
+    </div>
+    <div class="form-row">
+        <label for="phone"></label>
+        <input type="text" id="phone" name="phone" size="25" placeholder="Укажите Ваш номер телефона">
+    </div>
+    <div class="form-row">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Ваша почта" />
+    </div>
+    <div class="form-row">
+        <fieldset>
+            <legend>Количество комплектов палочек</legend>
+            <div class="form-row">
+                <label for="1">1</label>
+                <input type="radio" id="1" name="check">
+            </div>
+            <div class="form-row"> <label for="2">2</label>
+                <input type="radio" id="2" name="check">
+            </div>
+            <div class="form-row"><label for="3">3</label>
+                <input type="radio" id="3" name="check">
+            </div>
+            <div class="form-row"> <label for="4">Другое кол-во</label>
+                <input type="text" id="4" name="check" placeholder="введите кол-во комплектов">
+            </div>
+        </fieldset>
+    </div>
+    <div class="form-row">
+        <label for="option">Вид палочек</label>
+        <select id="option" name="option">
+            <option value="" selected>не выбраны</option>
+            <option value="normal">Обычные</option>
+            <option value="low skill">Учебные</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <fieldset>
+            <div class="form-row">
+                <input type="checkbox" id="calif" name="calif">
+                <label for="calif">Калифорния</label>
+            </div>
+            <div class="form-row">
+                <input type="checkbox" id="fil" name="fil">
+                <label for="fil">Филадельфия</label>
+            </div>
+            <div class="form-row">
+<input type="checkbox" id="heat" name="heat">
+<label for="heat">Теплый ролл</label>
+            </div>
+            <div class="form-row">
+<input type="checkbox" id="cezar" name="cezar">
+<label for="cezar">Темпурный запеченный Цезарь</label>
+            </div>
+            <div class="form-row">
+<input type="checkbox" id="midori" name="midori">
+<label for="midori">Мидори</label>
+            </div>
+        </fieldset>
+    </div>
+    ■ Нужно ли класть салфетки?
+    ■ Дополнительный комментарий.
+</body>
+
+</html>
